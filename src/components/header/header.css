@@ -1,0 +1,51 @@
+/* Estilo geral do cabeçalho */
+.header {
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Container centralizado */
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Estilo do logo */
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 1rem;
+  }
+  
+  /* Navegação */
+  .nav {
+    display: flex;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+  }
+  
+  .nav-item a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-item a:hover {
+    color: #d4f1c5; /* Cor ao passar o mouse */
+  }
+  

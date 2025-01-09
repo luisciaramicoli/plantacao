@@ -1,0 +1,65 @@
+.grafico {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  .titulo{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 2rem;
+  }
+  .inputs {
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 20px; /* Espaço entre os itens */
+    align-items: center; /* Alinha os itens verticalmente */
+  }
+  
+  #map {
+    height: 300px;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  .button{
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  input {
+    margin-left: 10px;
+    padding: 5px;
+    width: 100px; /* Ajuste no tamanho do input */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .texto{
+    text-align: justify;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .titulo2{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
