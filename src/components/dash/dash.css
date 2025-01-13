@@ -31,6 +31,7 @@
     width: 100%;
     border-radius: 8px;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
   .button{
     display: block;
@@ -63,3 +64,140 @@
     font-weight: bold;
     text-align: center;
   }
+  .distance{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    background-color: #dadada;
+    border-radius: 10px;
+  }
+  .distance2{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .endereco{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    background-color: #dadada;
+    border-radius: 10px;
+  }
+
+  input {
+    flex: 1;
+    padding: 5px;
+    border: 2px solid #46cb11;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+   button {
+    padding: 10px 20px;
+    background: #46cb11;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+ button:hover {
+    background: #3aa80e;
+  }
+  button {
+    padding: 10px 15px;
+    background: #46cb11;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover,
+  button.active {
+    background: #3aa80e;
+    color: #fff;
+  }
+  .titulos{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .sobre {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  .sobre h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .sobre p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .sobre h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .sobre ol {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .sobre li {
+    font-size: 1.1em;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .sobre a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .sobre a:hover {
+    text-decoration: underline;
+  }
+  
+  .sobre ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .sobre ul li {
+    font-size: 1.1em;
+    color: #444;
+    margin-bottom: 8px;
+  }
+  
+  .sobre .email-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .sobre .email-container a {
+    font-weight: bold;
+  }
+  
